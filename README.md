@@ -1,3 +1,7 @@
+# 출처
+https://github.com/neolord0/hwp2hwpx
+위 레포지토리를 자바 등 버전업된 개발환경에 맞추고 기타 컴파일 버그 등을 수정한 버전
+
 # 설치/실행 명렁어
 mvn clean install -DskipTests
 java -cp ".;hwplib/target/hwplib-1.1.10.jar;hwpxlib/target/hwpxlib-1.0.5.jar;hwp2hwpx/target/hwp2hwpx-1.0.0.jar" ConvertMain test_1.hwp test_1.hwpx
