@@ -1,3 +1,7 @@
+# 설치/실행 명렁어
+mvn clean install -DskipTests
+java -cp ".;hwplib/target/hwplib-1.1.10.jar;hwpxlib/target/hwpxlib-1.0.5.jar;hwp2hwpx/target/hwp2hwpx-1.0.0.jar" ConvertMain test_1.hwp test_1.hwpx
+
 # hwp2hwpx
 
 이 라이브러리는 한글과 컴퓨터(한컴)에서 만든 워드프로세서 "한글"의 hwp 파일을 hwpx 파일로 변환하는 java 라이브러리 입니다.<br>
