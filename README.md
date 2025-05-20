@@ -4,7 +4,10 @@ https://github.com/neolord0/hwp2hwpx
 
 # 설치/실행 명렁어
 mvn clean install -DskipTests
+[windows]
 java -cp ".;hwplib/target/hwplib-1.1.10.jar;hwpxlib/target/hwpxlib-1.0.5.jar;hwp2hwpx/target/hwp2hwpx-1.0.0.jar" ConvertMain test_1.hwp test_1.hwpx
+[linux]
+java -cp ".:hwplib/target/hwplib-1.1.10.jar:hwpxlib/target/hwpxlib-1.0.5.jar:hwp2hwpx/target/hwp2hwpx-1.0.0.jar" ConvertMain test_1.hwp test_1.hwpx
 
 # hwp2hwpx
 
